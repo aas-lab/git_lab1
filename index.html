@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Калькулятор </title>
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+<body>
+<div>
+    <button class="operation" id="clean"><b>C</b></button>
+    <textarea id="textarea" spellcheck="false" cols="28" rows="1"></textarea>
+    <button class="number" onclick="putNumber('7')"><b>7</b></button>
+    <button class="number" onclick="putNumber('8')"><b>8</b></button>
+    <button class="number" onclick="putNumber('9')"><b>9</b></button>
+    <button class="operator" id="sum"><b>+</b></button>
+    <button class="number" onclick="putNumber('4')"><b>4</b></button>
+    <button class="number" onclick="putNumber('5')"><b>5</b></button>
+    <button class="number" onclick="putNumber('6')"><b>6</b></button>
+    <button class="operator" id="subtract"><b>-</b></button>
+    <button class="number" onclick="putNumber('1')"><b>1</b></button>
+    <button class="number" onclick="putNumber('2')"><b>2</b></button>
+    <button class="number" onclick="putNumber('3')"><b>3</b></button>
+    <button class="operator" id="multiply"><b>x</b></button>
+    <button class="number" onclick="putNumber('0')"><b>0</b></button>
+    <button class="operation" id="dot"><b>.</b></button>
+    <button class="operation" id="calculate"><b>=</b></button>
+    <button class="operator" id="divide"><b>÷</b></button>
+</div>
+
+<script src="script.js"> </script>
+
+</body>
+</html>
